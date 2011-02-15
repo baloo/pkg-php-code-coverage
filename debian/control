@@ -1,0 +1,16 @@
+Source: php-code-coverage
+Section: php
+Priority: optional
+Maintainer: Arthur Gautier (Open Web Solutions) <arthur@ows.fr>
+Build-Depends: debhelper (>= 7.0.50~), cdbs
+Standards-Version: 3.9.1
+Homepage: https://github.com/sebastianbergmann/php-code-coverage
+Vcs-Git: git://github.com/sebastianbergmann/php-code-coverage.git
+
+Package: php-code-coverage
+Section: php
+Architecture: all
+Depends: php5-cli, php-token-stream, ${misc:Depends}
+Description: PHP code coverage analysis
+ php-codecoverage is a library that provides collection, processing,
+ and rendering functionality for PHP code coverage information.

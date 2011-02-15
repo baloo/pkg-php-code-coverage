@@ -1,0 +1,5 @@
+php-code-coverage (1.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #610676)
+
+ -- Arthur Gautier (Open Web Solutions) <arthur@ows.fr>  Fri, 28 Jan 2011 14:06:02 +0100
